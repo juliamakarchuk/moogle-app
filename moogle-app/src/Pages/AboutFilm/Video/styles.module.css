@@ -1,0 +1,14 @@
+.title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 15px 0;
+}
+.spinnerBlock{
+    margin: auto;
+    position: relative;
+    height: 300px;
+    width: 600px
+}
+.video{
+   margin: auto
+}

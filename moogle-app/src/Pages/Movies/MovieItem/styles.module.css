@@ -1,0 +1,80 @@
+.wrap {
+    position: relative;
+    overflow:hidden;
+    display: block;
+    width: 24.5%;
+    margin-bottom: 15px;
+    margin-right: 0.5%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-radius: 5px;
+}
+.wrap::before{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.title{
+    display: inline-block;
+    padding: 20px 0 8px 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+    bottom: 6%;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+}
+.image{
+    width: 100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    transition: transform 0.5s ease;
+}
+.wrap:hover .image{
+    transform: scale(1.2);
+}
+.popularity{
+    display: block;
+    padding: 5px 15px;
+    position: absolute;
+    top: 0%;
+    left: -1%;
+    background-color: paleturquoise;
+    border-bottom-right-radius: 5px;
+    color: black;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
+.iconStar{ 
+    top: 10%;
+    left: 85%;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    fill: white;
+}
+.iconStar:hover{
+    fill: yellow;
+}
+.iconBell{ 
+    top: 10%;
+    left: 93%;
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    fill: white
+}
+.iconBell:hover{
+    fill: yellow
+}

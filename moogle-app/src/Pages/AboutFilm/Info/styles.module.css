@@ -1,0 +1,52 @@
+.info{
+    width: 50%;
+}
+.iconStar{ 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    fill: #a9e6e5;
+    margin-right: 16px;
+}
+.iconStar:hover {
+    fill: black;
+    opacity: 0.2;
+}
+.iconBell{ 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    fill: #a9e6e5;
+}
+.iconBell:hover{
+    fill: black;
+    opacity: 0.2;
+}
+.iconsBar{
+    margin-bottom: 16px;
+}
+.title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding: 15px 0;
+}
+.infoTable{
+    width: 100%;
+    margin-bottom: 16px;
+    color: gray;
+    font-family: 'Roboto';
+}
+.overview{
+    color: gray;
+    font-family: 'Roboto';
+}
+.infoTable td{
+    display: inline-block;
+    padding: 10px;
+}
+td:first-child{
+    width: 100px;
+}
+tr:nth-child(2n-1){
+    background-color: #a9e6e5;
+}

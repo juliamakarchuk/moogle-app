@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+img {
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.container{
+    width: 30%;
+    margin-left: auto;
+}
+.form{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+.link{
+    text-decoration: none;
+}
+input[type = text]{
+   display: block;
+   height: auto;
+   outline: none;
+   border: none;
+   font-size: 24px;
+   background-color: transparent;
+}
+input[type=submit]{
+    display: none;
+}
